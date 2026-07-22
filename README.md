@@ -1,5 +1,5 @@
-# 🚀 Suspicious Behavior Classification Benchmark
-### *Part I of the Suspicious Behavior Research Series*
+# 🚀 Suspicious Behavior Classification Benchmark | Part II
+### *Part II of the Suspicious Behavior Research Series*
 
 <p align="center">
 
@@ -17,7 +17,7 @@
 
 # 📖 Overview
 
-This repository presents **Part I** of the **Suspicious Behavior Research Series**, a research-oriented benchmarking study that investigates the effectiveness of multiple deep learning architectures for suspicious behavior image classification.
+This repository presents **Part II** of the **Suspicious Behavior Research Series**, a research-oriented benchmarking study that investigates the effectiveness of multiple deep learning architectures for suspicious behavior image classification.
 
 Rather than proposing a novel model, this work focuses on **systematically comparing established architectures under identical experimental conditions** to establish a reliable experimental baseline for future computer vision research.
 
@@ -27,7 +27,7 @@ The study evaluates three fundamentally different learning paradigms:
 - Vision Transformer (ViT)
 - CNN Feature Extraction + Support Vector Machine (SVM)
 
-The findings from this benchmark serve as the foundation for the subsequent object detection study presented in **Part II** of the research series.
+The findings from this benchmark build upon the object detection study presented in **Part I** of the Suspicious Behavior Research Series, extending the investigation from object detection to image classification.
 
 ---
 
@@ -142,21 +142,7 @@ The benchmark uses standard classification metrics:
 
 This repository is part of a broader research initiative exploring deep learning methods for suspicious behavior analysis.
 
-## ✅ Part I — Image Classification Benchmark *(Current Repository)*
-
-Models evaluated:
-
-- CNN + Bi-LSTM
-- Vision Transformer
-- CNN Feature + SVM
-
-Focus:
-
-> Suspicious Behavior Image Classification
-
----
-
-## 🚀 Part II — Object Detection Benchmark
+## ✅ Part I — Object Detection Benchmark
 
 Repository:
 
@@ -171,7 +157,21 @@ Focus:
 
 > Suspicious Behavior Object Detection
 
-Together, these repositories provide a comprehensive evaluation of classification and detection paradigms for suspicious behavior analysis.
+---
+
+## 🚀 Part II — Image Classification Benchmark *(Current Repository)*
+
+Models evaluated:
+
+- CNN + Bi-LSTM
+- Vision Transformer
+- CNN Feature + SVM
+
+Focus:
+
+> Suspicious Behavior Image Classification
+
+Together, these repositories provide a comprehensive evaluation of object detection and image classification paradigms for suspicious behavior analysis.
 
 ---
 
